@@ -1,3 +1,5 @@
+/* eslint-disable jest/expect-expect */
+/* eslint-disable jest/valid-expect */
 const { expect } = require('chai');
 const assert = require('assert');
 

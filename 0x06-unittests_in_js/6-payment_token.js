@@ -1,3 +1,9 @@
+/**
+ * Simulates an API call to get a payment token
+ * @param {boolean} success - Whether the API call is successful or not
+ * @returns {Promise} A Promise that resolves with an object containing
+ * a "data" property if success is true. Otherwise, the Promise does nothing.
+ */
 function getPaymentTokenFromAPI(success) {
     // eslint-disable-next-line no-unused-vars
     return new Promise((resolve, reject) => {
@@ -9,6 +15,6 @@ function getPaymentTokenFromAPI(success) {
         // reject('Error: API call failed');
       }
     });
-}
-
-module.exports = getPaymentTokenFromAPI;
+  }
+  
+  module.exports = getPaymentTokenFromAPI;
