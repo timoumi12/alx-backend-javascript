@@ -6,7 +6,7 @@ function calculateNumber(type, a, b) {
     switch(type) {
         case "SUM":
             return roundedA + roundedB;
-        case "SUBSTRACT":
+        case "SUBTRACT":
             return roundedA - roundedB;
         case "DIVIDE":
             if (roundedB === 0) {
